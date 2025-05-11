@@ -1,4 +1,5 @@
-package com.example.library
+package com.example.library.screens
+
 
 data class Course(
     val title: String,

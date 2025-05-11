@@ -1,4 +1,8 @@
-package com.example.library
+package com.example.library.screens
+
+import com.example.library.R
+import kotlin.code
+
 
 import android.os.Bundle
 import androidx.compose.animation.animateContentSize
@@ -72,7 +76,6 @@ fun Header(onSignOut: () -> Unit, onThemeChange: (Boolean) -> Unit) {
                 )
             }
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text("Dark Theme", color = Color.White)
                 Spacer(modifier = Modifier.width(8.dp))
                 Switch(
                     checked = isSystemInDarkTheme(),
